@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	font-family: 'Lato', sans-serif;
+	
+	background-color: #B5B5DB;
+}
+
+img {
+	max-width: 100%;
+	
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+	
+.row {				/*  whole page */
+	width: 100%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-1 {			/* 1/12 of the page */
+	width: 8.33%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-2 {			/* 2/12 of the page */
+	width: 16.66%;
+	display: flex; flex-wrap: wrap;	
+}
+
+.col-3 {			/* 3/12 of the page */
+	width: 25%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-4 {			/* 4/12 of the page */
+	width: 33.33%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-5 {			/* 5/12 of the page */
+	width: 41.66%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-6 {			/* 6/12 of the page */
+	width: 50%;
+	
+}
+
+.col-7 {			/* 7/12 of the page */
+	width: 58.33%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-8 {			/* 8/12 of the page */
+	width: 66.66%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-9 {			/* 9/12 of the page */
+	width: 75%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-10 {			/* 10/12 of the page */
+	width: 83.33%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-11 {			/* 11/12 of the page */
+	width: 91.66%;
+	display: flex; flex-wrap: wrap;
+}
+
+.col-12 {			/* 12/12 of the page */
+	width: 100%;
+	display: flex; flex-wrap: wrap;
+}
